@@ -1,0 +1,122 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 20px 10px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-button {
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    margin-left: 4px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px ;
+  }
+  
+  .search-button:hover {
+    background-color: #555;
+  }
+  
+  .search-button.icon{
+    font-size: 14px;
+  }
+
+  
+  @media(max-width: 475px){
+    .search-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      margin: 10px 5px;
+    }
+    
+    .search-input {
+      flex: 1;
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+    }
+    
+    .search-button {
+      background-color: lightseagreen;
+      border: none;
+      color: white;
+      margin-left: 4px;
+      padding: 4px;
+      cursor: pointer;
+      border-radius: 0 2px 2px 0;
+    }
+    
+    .search-button:hover {
+      background-color: #555;
+    }
+    
+    .search-button.icon{
+      font-size: 10px;
+    }
+  }
+
+
+  .cancel-order {
+    text-align: center;
+  }
+  
+  .cancel-order .cancel-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-order .cancel-button:hover {
+    background-color: #c0392b;
+  }
+
+
+
+  
+
+.bodyemptycart {
+  font-family: Arial, sans-serif;
+  margin-bottom: 8rem ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bodyemptycart  .cart-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bodyemptycart  .bigger-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bodyemptycart  .smaller-text {
+  font-size: 16px;
+  margin-top: 10px;
+}
+

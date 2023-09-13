@@ -1,0 +1,148 @@
+.barchart{
+    width: 60%;
+    height: 30%;
+  margin: 2.5rem auto;
+}
+.barchart h1{
+    text-align: center;
+}
+
+
+.barchart .select-container {
+    margin-bottom: 10px;
+  }
+  
+  .barchart  .select-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: border-color 0.3s;
+  }
+  
+  .barchart  .select-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+@media(max-width:700px){
+.barchart{
+    width: 80%;
+}
+}
+
+
+/*category*/
+.wrapperpro {
+  margin: 0 auto 200px auto !important;
+  display: flex;
+  justify-content: center;
+  
+}
+.search-containerpro {
+  display: flex;
+justify-content: center;
+margin: 30px auto;
+}
+
+.buttonspro{
+  display: flex;
+justify-content: center;
+}
+.search-containerpro input {
+  background-color: transparent;
+  width: 40%;
+  border-bottom: 2px solid #110f29;
+  padding: 1em 0.3em;
+}
+.search-containerpro input:focus {
+  border-bottom-color: #6759ff;
+}
+.search-containerpro button {
+  padding: 1em 2em;
+  margin-left: 1em;
+  background-color: #6759ff;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 0.5em;
+}
+.button-valuepro {
+  border: 2px solid #6759ff;
+  padding: 1em 2.2em;
+  border-radius: 3em;
+  background-color: transparent;
+  color: #6759ff;
+  cursor: pointer;
+  margin: auto 10px;
+}
+.activepro {
+  background-color: #6759ff;
+  color: #ffffff;
+}
+
+
+
+
+
+/* Dropdown container styles */
+.dropdown-container {
+margin: 0 auto;
+}
+
+/* Dropdown select styles */
+.dropdown-select {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border: 1px solid #55A4CC;
+border-radius: 4px;
+background-color: #FFFFFF;
+color: #333;
+min-width: 200px; /* Set a minimum width to prevent excessive compression on smaller screens */
+max-width: 300px; /* Set a maximum width to control the width on larger screens */
+}
+
+/* Dropdown arrow styles (using pseudo-elements) */
+.dropdown-select::after {
+content: "▼"; /* Custom dropdown arrow */
+position: absolute;
+top: 50%;
+right: 15px;
+transform: translateY(-50%);
+color: #55A4CC; /* Arrow color */
+}
+
+/* Dropdown option styles */
+.dropdown-select option {
+background-color: #FFFFFF;
+color: #333;
+}
+
+/* Style the selected option */
+.dropdown-select option:checked {
+background-color: #55A4CC; /* Selected option background color */
+color: #FFFFFF; /* Selected option text color */
+}
+
+/* Hover styles for dropdown options */
+.dropdown-select option:hover {
+background-color: #E2F2FE; /* Hovered option background color */
+}
+
+/* Media query for responsive styling */
+
+@media(max-width:499px){
+  .barchart{
+    position: relative;
+   margin-top: 20%;
+}
+  .dropdown-container {
+    position: fixed;
+    top: 3%;
+    left: 25%;
+    }
+  }
+  

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.bodyservice{
+    height: 80vh;
+    z-index: 999;
+}
+.bodyservice  .wrapperservice{
+    width: 1170px;
+    margin: 5% auto;
+}
+.bodyservice  .wrapperservice h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #333; /* Text color */
+    margin-top: 20px; /* Adjust the margin as needed */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    text-align: center; /* Align text center, change to 'left' or 'right' as needed */
+}
+.bodyservice  .single-service{
+    position: relative;
+    width: 31%;
+    height: 320px;
+    background: white;
+    box-sizing: border-box;
+    padding: 0 15px;
+    transition: 0.5s;
+    overflow: hidden;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+.bodyservice  .lineservice{
+    width: 150px;
+    height: 3px;
+    background: white;
+    margin: 0 auto 60px auto;
+}
+.bodyservice  .single-service p{
+    color: #262626;
+    font-size: 14px;
+   
+}
+
+.bodyservice  .single-service h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #262626;
+}
+.bodyservice  .socialservice{
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    margin: 5% auto;
+}
+.bodyservice  .single-service i{
+    font-size: 30px;
+    padding: 15px;
+}
+
+.bodyservice  .single-service:hover span{
+    left: 110%;
+}
+
+
+@media(max-width:1200px){
+    .bodyservice     .wrapperservice{
+        width: 100%;
+
+    }
+    .bodyservice    .single-service{
+        width: 95%;
+        margin-bottom: 30px;
+    }
+    .bodyservice    .wrapperservice h2{
+        font-size: 30px;
+    }
+}

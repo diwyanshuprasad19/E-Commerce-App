@@ -1,0 +1,168 @@
+
+.containerorder {
+    width: 85%;
+    margin: 0px auto 10px auto;
+    padding: 20px;
+    border: 1px solid silver;
+    border-top: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.containerorder .statusorder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.containerorder .return-buttonorder {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.containerorder .return-buttonorder:hover {
+    background-color: #2980b9;
+}
+
+.containerorder .deliveryorder {
+    margin-bottom: 15px;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    width: 75%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.containerorder .productorder {
+    display: flex;
+    align-items: center;
+}
+
+.containerorder .product-detailsorder img {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.containerorder .product-infoorder p {
+    margin: 10px 0;
+    margin-right: 4rem !important;
+    color: #333;
+}
+
+.containerorder .buttonsorder {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.containerorder .right-buttonsorder {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.containerorder .buttonorder {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.containerorder .buttonorder:hover {
+    background-color: #2980b9;
+}
+
+.containerorder .slim-buttonorder {
+    display: block;
+width:5rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.containerorder .slim-buttonorder:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+@media screen and (max-width: 764px) {
+    .containerorder {
+        padding: 10px;
+        width: 87%;
+    }
+
+    .containerorder    .productorder {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .containerorder    .product-detailsorder img {
+        max-width: 50%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .containerorder   .product-infoorder p {
+        margin-right: 0;
+    }
+
+    .containerorder    .right-buttonsorder {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .containerorder    .buttonsorder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerorder   .button-grouporder {
+        display: flex;
+        flex-direction: row; /* Display buttons horizontally */
+        justify-content: center; /* Center buttons horizontally */
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .containerorder   .slim-buttonorder {
+        margin: 0 5px; /* Add margin between buttons */
+    }
+}
+
+@media(max-width:400px){
+    .containerorder {
+        padding: 10px;
+        width: 80%;
+    }
+    .containerorder   .slim-buttonorder {
+        margin: 0 10px; /* Add margin between buttons */
+        width: 100%;
+    }
+}

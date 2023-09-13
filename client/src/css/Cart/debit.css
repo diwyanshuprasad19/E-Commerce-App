@@ -1,0 +1,50 @@
+.debitform{
+    transition: 1s;
+}
+
+.debitform form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .debitform   label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .debitform   input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+
+.debitform select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    overflow-y: hidden;
+    background-image: none;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+.debitform select::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+  /* Media query for small screens (e.g., mobile phones) */
+  @media (max-width: 600px) {
+    .debitform     form {
+      padding: 10px;
+    }
+  
+    .debitform  input {
+      padding: 8px;
+    }
+  }

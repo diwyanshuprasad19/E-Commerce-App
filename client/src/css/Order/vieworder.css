@@ -1,0 +1,65 @@
+.order-details {
+  width: 97.5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .order-details .order-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .order-details .invoice {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .order-details .section {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .order-details  .section-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .order-details  .address-details {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .order-details  .payment-details {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .order-details .subtotal {
+    font-size: 14px;
+    color: #555;
+  }
+
+  @media (max-width: 768px) {
+
+    .order-details   .invoice {
+      flex-direction: column;
+      width: 80%;
+    }
+    
+    .order-details  .section {
+      width: 100%;
+    }
+  }
+  

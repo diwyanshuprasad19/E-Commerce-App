@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: url('https://cdn.pixabay.com/photo/2018/03/27/10/03/online-store-3265497_1280.jpg') no-repeat center center/cover;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .hero .overlay {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+    max-width: 80%;
+    color: black;
+  }
+  
+  .hero  .overlay h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero  .overlay p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+  }
+  .hero  .eco {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero  .eco:hover {
+    background-color: #45a049;
+  }
+  
+  .hero  .eco:active {
+    background-color: #3e8e41;
+  }
+  @media (max-width: 768px) {
+    .hero    .overlay {
+      max-width: 90%;
+      padding: 1rem;
+    }
+    
+    .hero   .overlay h1 {
+      font-size: 1rem;
+    }
+    
+    .hero   .overlay p {
+      font-size: 1rem;
+    }
+  }
+  

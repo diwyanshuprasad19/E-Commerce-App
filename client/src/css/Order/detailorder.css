@@ -1,0 +1,100 @@
+.middleyourorder h1{
+  margin: 3rem auto;
+text-align: center;
+
+}
+
+.containerdetails{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.tableupper{
+    max-width: 800px;
+    line-height: 50%;
+    margin: 0px auto;
+}
+
+.tableupper table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 10px auto 0px auto;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .tableupper th {
+    padding: 10px 5px 3px 5px;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  .tableupper td {
+    padding: 3px 5px 10px 5px;
+    text-align: left;
+    font-weight: lighter;
+    color: silver;
+  }
+  
+  
+  .tableupper .viewbutton {
+    font-size: 0.8rem;
+    position: relative;
+    right: 5%;
+    bottom: 50%;
+    padding: 8px 6rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    float: right;
+  }
+  
+  .tableupper  .viewbutton:hover {
+    background-color:  	#DC143C;
+  }
+  
+  .tableupper .viewbutton:active {
+    background-color: red;
+  }
+
+
+
+@media(max-width:764px){
+
+    .tableupper{
+        line-height: 100%;
+    }
+
+    .tableupper th {
+        padding: 10px auto;
+        border-bottom: none;
+
+      }
+    
+      .tableupper td {
+        padding: 10px auto;
+        border-bottom: none;
+      }
+      .tableupper .viewbutton {
+        position: relative;
+        right: 0%;
+        bottom: 0%;
+        padding: 8px 16px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        float: right;
+      }
+
+}
+
+
+

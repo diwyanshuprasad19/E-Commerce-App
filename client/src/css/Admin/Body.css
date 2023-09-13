@@ -1,0 +1,21 @@
+.containerbody {
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  .containerdashboard {
+    position: relative;
+    width: 100%;
+  }
+  .maindash {
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    background: var(--white);
+    transition: 0.5s;
+  }
+  .maindash.active {
+    width: calc(100% - 80px);
+    left: 80px;
+  }

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+.products  {
+	font-size: 1rem;
+	font-family: 'Merriweather Sans', sans-serif;
+	background: #fafafa;
+	color: #ececec;
+	padding: 2rem;
+}
+.products  .eco1{
+	text-align: center;
+	margin: 1rem 0rem;
+	font-size: 3rem;
+    color: gray;
+}
+
+.products  .all-products{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.products  .product{
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+	width: 240px;
+	height: 400px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 0.5rem 2rem;
+	background-color: white;
+	position: relative;
+}
+
+.products  .product .product-title, .product .product-price{
+	font-size: 18px;
+}
+
+.products  .product:hover img{
+	scale:  1.1;
+}
+
+.products  .product:hover {
+	box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.products  .product img {
+	height: 200px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+.products  .product .overlappro{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: green;
+	color: #FFFFFF;
+	padding: 4px 8px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);;
+}
+.products  .product a:link,.products   .product a:visited{
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #2c3e50;
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+
+.products  .product a:hover{
+	transform: scale(1.1);
+}
+
+.products  .rate {
+    display: inline-block;
+    border: 0;
+	color: gold;
+}
+/* Hide radio */
+.products  .rate > input {
+    display: none;
+}
+/* Order correctly by floating highest to the right */
+.products  .rate > label {
+    float: right;
+}
+/* The star of the show */
+.products  .rate > label:before {
+    display: inline-block;
+    font-size: 1rem;
+    padding: .15rem .1rem;
+    margin: 0;
+    cursor: pointer;
+    font-family: FontAwesome;
+    content: "\f005 "; /* full star */
+}
+
+/* Half star trick */
+.products  .rate .half:before {
+    content: "\f089 "; /* half star no outline */
+    position: absolute;
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+  }
+
+  .page-button {
+	padding: 8px 12px;
+	margin: 4px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: white;
+	color: #333;
+	cursor: pointer;
+	transition: background-color 0.2s, color 0.2s;
+  }
+
+  .page-button.active {
+	background-color: #007bff;
+	color: white;
+  }
+
+  .page-button:hover {
+	background-color: #f0f0f0;
+  }
+
+  .page-button.active:hover {
+	background-color: #0070d2;
+  }

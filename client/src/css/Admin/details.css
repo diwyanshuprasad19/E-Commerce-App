@@ -1,0 +1,197 @@
+.detailsdash {
+    position: relative;
+    width: 95%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+    /* margin-top: 10px; */
+  }
+  
+  .detailsdash .recentOrders {
+    position: relative;
+    display: grid;
+    min-height: 500px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+  }
+  
+  .detailsdash .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .detailsdash  .cardHeader h2 {
+    font-weight: 600;
+    color: #000000;
+  }
+  .detailsdash  .cardHeader .btn {
+    position: relative;
+    padding: 5px 10px;
+    background: #000000;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+  }
+  
+  .detailsdash table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 100%;
+  }
+  .detailsdash table thead td {
+    font-weight: 600;
+  }
+  .detailsdash .recentOrders table tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    line-height: 30px;
+  }
+  .detailsdash .recentOrders table tr:last-child {
+    border-bottom: none;
+  }
+  .detailsdash .recentOrders table tbody tr:hover {
+    background: silver;
+
+  }
+  .detailsdash .recentOrders table tr td {
+    padding: 10px;
+  }
+  .detailsdash .recentOrders table tr td:last-child {
+    text-align: end;
+  }
+  .detailsdash .recentOrders table tr td:nth-child(2) {
+    text-align: end;
+  }
+  .detailsdash .recentOrders table tr td:nth-child(3) {
+    text-align: center;
+  }
+  .detailsdash  .status.delivered {
+    padding: 2px 4px;
+    background: #8de02c;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .detailsdash .status.pending {
+    padding: 2px 4px;
+    background: #e9b10a;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .detailsdash  .status.return {
+    padding: 2px 4px;
+    background: #f00;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .detailsdash .status.inProgress {
+    padding: 2px 4px;
+    background: #1795ce;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .detailsdash .recentCustomers {
+    position: relative;
+    display: grid;
+    min-height: 500px;
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+  }
+  .detailsdash  .recentCustomers .imgBx {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  .detailsdash .recentCustomers .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .detailsdash  .recentCustomers table tr td {
+    padding: 12px 10px;
+  }
+  .detailsdash  .recentCustomers table tr td h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1rem;
+  }
+  .detailsdash .recentCustomers table tr td h4 span {
+    font-size: 14px;
+    color: var(--black2);
+  }
+  .detailsdash .recentCustomers table tr:hover {
+    background: silver;
+  }
+  .detailsdash  .recentCustomers table tr:hover td h4 span {
+
+  }
+  
+
+  @media (max-width: 768px) {
+    .detailsdash {
+      grid-template-columns: 1fr;
+    }
+    .detailsdash .uptable{
+      position: relative;
+      top: 0%;
+    }
+    .detailsdash   .recentOrders {
+      overflow-x: auto;
+    }
+    .detailsdash .status.inProgress {
+      white-space: nowrap;
+    }
+    .detailsdash .uptable{
+      margin-top: -5rem !important;
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .detailsdash  .cardBox {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .detailsdash .cardHeader h2 {
+      font-size: 20px;
+    }
+    .detailsdash .user {
+      min-width: 40px;
+    }
+    .detailsdash  .navigation {
+      width: 100%;
+      left: -100%;
+      z-index: 1000;
+    }
+    .detailsdash .navigation.active {
+      width: 100%;
+      left: 0;
+    }
+    .detailsdash  .toggle {
+      z-index: 10001;
+    }
+    .detailsdash  .main.active .toggle {
+      color: #fff;
+      position: fixed;
+      right: 0;
+      left: initial;
+    }
+    .detailsdash  .uptable{
+      margin-top: -3rem !important;
+    }
+  }

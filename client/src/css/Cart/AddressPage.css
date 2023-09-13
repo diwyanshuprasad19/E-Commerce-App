@@ -1,0 +1,313 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,300,500,700,900);
+
+
+.containeraddress {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.containeraddress  .form__name {
+  color: #B9BAC5;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.containeraddress  .form__container {
+  width: 100%;
+  min-height: 300px;
+  background-color: #fff;
+  border: 1px solid #DADDE8;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+/* PERSONAL -- FORM */
+.containeraddress  .personal--form {
+  color: #A4A9C5;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 55px;
+  margin-top: 10px;
+}
+
+
+.containeraddress  .personal--form .first,
+.containeraddress  .personal--form .last,
+.containeraddress  .personal--form .email {
+  display: inline-block;
+}
+
+.containeraddress  .personal--form label {
+  margin-bottom: 10px;
+}
+
+.containeraddress  .personal--form label,
+.containeraddress  .personal--form input {
+  display: block;
+  min-width: 250px;
+}
+
+.containeraddress  .personal--form .email {
+  margin-top: 20px;
+}
+
+.containeraddress  .personal--form input {
+  width: 540px;
+}
+
+/* Shipping Address */
+.containeraddress  .shipping--form {
+  color: #A4A9C5;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 55px;
+  margin-top: 10px;
+}
+
+.containeraddress  .shipping--form .row.two,
+.containeraddress  .shipping--form .row.three {
+  margin-top: 20px;
+}
+
+
+
+.containeraddress  .shipping--form .address,
+.containeraddress  .shipping--form .address-two,
+.containeraddress  .shipping--form .city,
+.containeraddress  .shipping--form .state,
+.containeraddress  .shipping--form .zip,
+.containeraddress  .shipping--form .country {
+  display: inline-block;
+}
+
+.containeraddress  .shipping--form label {
+  margin-bottom: 10px;
+}
+
+.containeraddress  .shipping--form label,
+.containeraddress  .shipping--form input {
+  display: block;
+  min-width: 250px;
+}
+
+/* Questions */
+.containeraddress  .form__question {
+  padding: 10px 55px;
+  color: #646E8A;
+}
+
+.containeraddress  .form__question p {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.containeraddress  .form__question input[type=checkbox] {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 2px solid #646E8A;
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.containeraddress  .form__question input[type=checkbox]:checked {
+  background-color: #18C2C0;
+}
+
+/* GLOBALS */
+.containeraddress  input {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background: transparent;
+  border: 1px solid #A4A9C5;
+  border-radius: 3px;
+  outline: none;
+  padding: 10px;
+  transition: border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  color: black;
+}
+
+.containeraddress  input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  -webkit-text-fill-color: #18C2C0;
+}
+
+.containeraddress  input:focus {
+  border-color: grey;
+}
+
+.containeraddress  input::placeholder {
+  font-weight: 500;
+  color: #646E8A;
+}
+
+/* BUTTON */
+.containeraddress  .form__confirmation {
+  padding: 10px 55px;
+}
+
+.containeraddress  .buttonship {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: #18C2C0;
+  border: 1px solid #DADDE8;
+  color: #fff;
+  padding: 18px;
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  left: 80%;
+}
+
+.containeraddress  .buttonship:hover {
+  background-color: #15aeac;
+}
+
+.containeraddress  .buttonship:active {
+  background-color: #139b99;
+}
+
+/* UTILITIES */
+.containeraddress  .box {
+  cursor: default;
+  user-select: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  height: 40px;
+  width: 40px;
+  line-height: 35px;
+  border-radius: 50px;
+  border: 2px solid #646E8A;
+  text-align: center;
+  color: #646E8A;
+}
+
+.containeraddress  .box.billing {
+  line-height: 30px;
+}
+
+.containeraddress  section {
+  margin-top: 50px;
+}
+
+.containeraddress  section:nth-child(1) {
+  margin-top: 0px;
+}
+
+.containeraddress  .sections span {
+  color: #646E8A;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-left: 15px;
+}
+
+
+
+
+.containeraddress  .custom-select {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  position: relative; /* Add relative positioning for the arrow */
+  background-color: white;
+}
+
+/* Custom arrow using ::after pseudo-element */
+.containeraddress  .custom-select::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #555; /* Change the color of the arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust the position of the arrow as per your preference */
+  transform: translateY(-50%); /* Center the arrow vertically */
+  pointer-events: none; /* Ensure the arrow doesn't capture pointer events */
+}
+
+.containeraddress  .custom-select:hover {
+  border-color: #555;
+}
+
+.containeraddress  .custom-select:focus {
+  border-color: silverbff;
+  box-shadow: 0 0 5px silver;
+}
+
+@media screen and (max-width: 1100px) {
+  .containeraddress {
+    max-width: 80vw;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .containeraddress   .form__confirmation .buttonship {
+    left: 0;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  
+  .containeraddress     .form__name {
+      font-size: 1.2rem;
+    }
+  
+    .containeraddress     .form__container {
+      padding: 20px;
+      margin-bottom: 60px;
+     
+    }
+  
+    .containeraddress    .personal--form input {
+      width: 80%;
+    }
+    .containeraddress    .personal--form{
+      padding: 10px 25px;
+    }
+    .containeraddress    .shipping--form input {
+      width: 80%;
+    }
+  
+    .containeraddress    .form__question {
+      padding: 10px;
+    }
+  
+
+  }
+
+
+  @media screen and (max-width: 450px) {
+    .containeraddress {
+      max-width: 75vw;
+    }
+  }

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+.productpop  {
+    font-family: 'Merriweather Sans', sans-serif;
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+	width: 240px;
+	height: 400px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	background-color: white;
+	position: relative;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  line-height: 0.5;
+}
+
+.productpop .product-title, .product .product-price{
+	font-size: 18px;
+}
+
+.productpop:hover {
+	box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.productpop .parentlap{
+    position : relative;
+}
+.productpop .parentlap .overlappro
+{
+    position: absolute;
+	top: -20px;
+    left: -80px;
+	background-color: green;
+	color: #FFFFFF;
+	padding: 6px 12px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);;
+}
+.productpop img {
+	height: 150px;
+	margin: 0 0.5rem 0.5rem 0.5rem;
+	transition: all 0.3s;
+}
+.productpop .overlappro{
+	position: absolute;
+	top: 10px;
+	left: -30px !important;
+	background-color: green;
+	color: #FFFFFF;
+	padding: 4px 8px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);;
+}
+.productpop a:link, .product a:visited{
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #2c3e50;
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+
+.productpop a:hover{
+	transform: scale(1.1);
+}
+
+.productpop .rate {
+    display: inline-block;
+    border: 0;
+	color: #d9d900;
+}
+/* Hide radio */
+.productpop .rate > input {
+    display: none;
+}
+/* Order correctly by floating highest to the right */
+.productpop .rate > label {
+    float: right;
+}
+/* The star of the show */
+.productpop .rate > label:before {
+    display: inline-block;
+    font-size: 1rem;
+    padding: .15rem .1rem;
+    margin: 0;
+    cursor: pointer;
+    font-family: FontAwesome;
+    content: "\f005 "; /* full star */
+}
+
+.productpop .product-btn
+{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+/* Styling for the coupon container */
+.coupon-container {
+	display: flex;
+	align-items: center;
+  }
+  
+  /* Styling for the coupon input field */
+  .couponInput {
+	padding: 0.75rem;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 0.25rem;
+	width: 10rem;
+  }
+  
+  /* Styling for the "Apply Coupon" button */
+  .applyCouponButton {
+	text-align: center;
+	margin: 0 1rem;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	width: 4rem;
+  }
+  
