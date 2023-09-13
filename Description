@@ -1,0 +1,35 @@
+Live Video: https://drive.google.com/file/d/1UjKikVrRQZjh9zmuyYk6xCTCSGRz88SP/view?usp=sharing
+GitHub: https://github.com/diwyanshuprasad19/E-commerce-App
+
+Hello,
+I’m happy to share one of my projects using MERN and Redux. I have successfully completed all the testing and bug fixing.
+
+Features involved:
+? User Login And Signup
+? User Forgot password using OTP
+? Product search
+? Product Page Pagination
+? Product Description
+? Add to Cart
+? Cart Add And Substract product quantity and Product delete
+? Coupon Apply for discount
+? Address Management
+? Payment Method (Card ,UPI and COD)
+? Contact Us
+? User Profile(Reset-Password,User image,username,phone Number)
+? Order-View Order detail
+? Order-Track order
+? Order-Invoice(Download and print)
+? Order-Cancel,Return,Review and Refund status
+
+? Admin Login And Signup
+? Admin Dashboard (Views,Profit,Order Number and Reviews)
+? User Block/Unblock on the Admin side and User Detail
+? Admin Profile(Reset-Password,User image,username,phone Number)
+? Change the status of the order on Admin side and Order detail
+? Sales Graph (chart.js)
+? Coupons create ,edit ,delete and active/unactive 
+? Product detail create,edit and delete
+
+Technology Stack: React, ExpressJs, NodeJs, MongoDB, Redux 
+
